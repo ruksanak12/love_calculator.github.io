@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>love_calculator</title>
+</head>
+<body>
+    <img class="background" src="background full.jpg" alt="images">
+    <div class="container">
+        <div class="content">            
+            <div class="inputArea">
+                <h1>Love Calculator</h1>
+                <input type="text" placeholder="Your Name" id="nameOne" onfocus="this.value =''"> 
+                <input type="text" placeholder="Crush Name" id="nameTwo" onfocus="this.value =''"> 
+            </div>
+
+            <div>
+            <button id="result" onclick="loveCalculator()">Calculate</button>
+            <p id="print">Your relationship result here.</p>
+            <p id="statement"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
